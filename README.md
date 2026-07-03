@@ -21,8 +21,9 @@ Compile using any standard C++ compiler:
 g++ -std=c++14 main.cpp -o ev_simulator
 ```
 ## Running the App
-Bash
+```bash
 ./ev_simulator
+```
 ## 📊 Management Console Options
 * **View Charging Stations Status:** Check live occupancy, vehicle IDs, and current SOC% metrics.
 
