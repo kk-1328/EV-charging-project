@@ -6,7 +6,7 @@ A command-line interface (CLI) smart EV charging station simulator built in Mode
 * **Dual-Tier Charging:** Models AC Slow Charging (7kW) and DC Fast Charging (50kW) points.
 * **Physics-Based Constraints:** Computes true energy transfer using $\min(\text{chargerPower}, \text{vehicleMaxIntake})$.
 * **Smart Grid Dynamic Pricing:** Simulates a time-of-use tariff with a **1.5x premium surcharge** automatically applied during peak hours (18:00 to 22:00).
-* **Automated Lifecycles:** Vehicles auto-evict and clear from RAM upon reaching $100\%$ State of Charge (SOC) or when manually undocked with a full receipt.
+* **Automated Lifecycles:** Vehicles auto-evict and clear from RAM upon reaching 100\% State of Charge (SOC) or when manually undocked with a full receipt.
 
 ## 🛠️ Tech Stack & Architecture
 * **Language:** Modern C++ (C++14 or newer)
