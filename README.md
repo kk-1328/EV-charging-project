@@ -20,7 +20,7 @@ Compile using any standard C++ compiler:
 ```bash
 g++ -std=c++14 main.cpp -o ev_simulator
 ```
-## Running the App
+### Running the App
 ```bash
 ./ev_simulator
 ```
