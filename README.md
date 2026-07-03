@@ -19,16 +19,17 @@ A command-line interface (CLI) smart EV charging station simulator built in Mode
 Compile using any standard C++ compiler:
 ```bash
 g++ -std=c++14 main.cpp -o ev_simulator
-Running the App
+```
+## Running the App
 Bash
 ./ev_simulator
-📊 Management Console Options
-View Charging Stations Status: Check live occupancy, vehicle IDs, and current SOC% metrics.
+## 📊 Management Console Options
+* **View Charging Stations Status:** Check live occupancy, vehicle IDs, and current SOC% metrics.
 
-Create & Dock a Vehicle: Provision a new vehicle profile and hand over its memory ownership to a slot.
+* **Create & Dock a Vehicle:** Provision a new vehicle profile and hand over its memory ownership to a slot.
 
-Advance Simulation Time: Move the clock forward to process power delivery and trigger billing calculations.
+* **Advance Simulation Time:** Move the clock forward to process power delivery and trigger billing calculations.
 
-Undock/Unplug a Vehicle: Manually interrupt a session to generate an itemized invoice in Rs. based on net energy consumed.
+* **Undock/Unplug a Vehicle:** Manually interrupt a session to generate an itemized invoice in Rs. based on net energy consumed.
 
-Exit Simulation: Cleanly terminate all active objects.
+* **Exit Simulation:** Cleanly terminate all active objects.
